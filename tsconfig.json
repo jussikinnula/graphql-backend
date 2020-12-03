@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "build",
+    "target": "es2018",
+    "lib": [
+      "es2018"
+    ]
+  }
+}
