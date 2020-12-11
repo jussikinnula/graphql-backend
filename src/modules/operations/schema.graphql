@@ -1,0 +1,7 @@
+type Query {
+  assignments: [Assignment!]!
+}
+
+type Mutation {
+  createAssignment(input: AssignmentInput): Assignment!
+}
